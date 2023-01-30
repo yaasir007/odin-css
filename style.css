@@ -43,3 +43,44 @@
   list-style: none;
   color: brown;
 }
+
+/* Cards Section */
+
+.cards-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  border: 1px solid red;
+  padding: 3rem;
+}
+
+.cards-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.big-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 3px black;
+}
+
+.message {
+  padding-top: 5px;
+  text-align: center;
+  width: 150px;
+}
