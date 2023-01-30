@@ -51,16 +51,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
-  border: 1px solid red;
-  padding: 3rem;
+  gap: 4rem;
+  padding: 4rem;
 }
 
 .cards-title {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
@@ -68,12 +67,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 5rem;
 }
 
 .square {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border: 2px solid black;
   border-radius: 10px;
   box-shadow: 5px 3px black;
@@ -82,5 +81,38 @@
 .message {
   padding-top: 5px;
   text-align: center;
-  width: 150px;
+  width: 200px;
+}
+
+/* Quote Section */
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #e5e7eb;
+}
+
+.quote-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 70%;
+  padding: 4rem;
+}
+
+.text-content {
+  font-size: 1.8rem;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+}
+
+.quoter-content {
+  width: 100%;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
