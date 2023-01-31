@@ -1,0 +1,29 @@
+/* TV */
+@media screen and (min-width: 1201px) {
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+}
+
+/* Laptop */
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .rectangle {
+    width: 100%;
+  }
+
+  .rectangle > .rect-btn {
+    color: white;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+/* Smartphones */
+@media screen and (max-width: 480px) {
+}
