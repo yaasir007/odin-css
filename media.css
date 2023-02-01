@@ -26,4 +26,34 @@
 
 /* Smartphones */
 @media screen and (max-width: 480px) {
+  /* Banner Section */
+  .logo {
+    position: absolute;
+    top: 2%;
+    left: 40%;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  /* Cards Section */
+
+  .cards-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .cards-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
 }
