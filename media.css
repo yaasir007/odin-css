@@ -33,6 +33,11 @@
     display: none;
   }
 
+  .banner-wrapper > .img-res {
+    height: 90vh;
+    object-fit: cover;
+  }
+
   /* Cards Section */
 
   .cards-wrapper {
